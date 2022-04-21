@@ -1,0 +1,181 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+    <Win32Resource />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\BlankTile.bmp" />
+    <None Remove="images\Border\0Vert.bmp" />
+    <None Remove="images\Border\1Horz.bmp" />
+    <None Remove="images\Border\2TopLeft.bmp" />
+    <None Remove="images\Border\3TopRight.bmp" />
+    <None Remove="images\Border\4LeftJunc.bmp" />
+    <None Remove="images\Border\5RightJunc.bmp" />
+    <None Remove="images\Border\6BottomLeft.bmp" />
+    <None Remove="images\Border\7BottomRight.bmp" />
+    <None Remove="images\Border\BottomLeft.bmp" />
+    <None Remove="images\Border\BottomRight.bmp" />
+    <None Remove="images\Border\Horz.bmp" />
+    <None Remove="images\Border\LeftJunc.bmp" />
+    <None Remove="images\Border\RightJunc.bmp" />
+    <None Remove="images\Border\TopLeft.bmp" />
+    <None Remove="images\Border\TopRight.bmp" />
+    <None Remove="images\Border\Vert.bmp" />
+    <None Remove="images\Closed.bmp" />
+    <None Remove="images\Digit_Display\0.bmp" />
+    <None Remove="images\Digit_Display\1.bmp" />
+    <None Remove="images\Digit_Display\2.bmp" />
+    <None Remove="images\Digit_Display\3.bmp" />
+    <None Remove="images\Digit_Display\4.bmp" />
+    <None Remove="images\Digit_Display\5.bmp" />
+    <None Remove="images\Digit_Display\6.bmp" />
+    <None Remove="images\Digit_Display\7.bmp" />
+    <None Remove="images\Digit_Display\8.bmp" />
+    <None Remove="images\Digit_Display\9.bmp" />
+    <None Remove="images\Digit_Display\Neg.bmp" />
+    <None Remove="images\Digit_Display\Off.bmp" />
+    <None Remove="images\Flagged.bmp" />
+    <None Remove="images\Mine.bmp" />
+    <None Remove="images\MineExp.bmp" />
+    <None Remove="images\Open.bmp" />
+    <None Remove="images\OpenEight.bmp" />
+    <None Remove="images\OpenFive.bmp" />
+    <None Remove="images\OpenFour.bmp" />
+    <None Remove="images\OpenOne.bmp" />
+    <None Remove="images\OpenSeven.bmp" />
+    <None Remove="images\OpenSix.bmp" />
+    <None Remove="images\OpenThree.bmp" />
+    <None Remove="images\OpenTwo.bmp" />
+    <None Remove="images\test.png" />
+    <None Remove="images\TestImages.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Border\0Vert.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Border\1Horz.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Border\2TopLeft.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Border\3TopRight.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Border\4LeftJunc.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Border\5RightJunc.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Border\6BottomLeft.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Border\7BottomRight.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\0.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\4.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\5.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\6.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\7.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\8.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\9.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\Neg.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Digit_Display\Off.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\TestImages.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Closed.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Flagged.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Mine.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\MineExp.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Open.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenEight.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenFive.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenFour.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenOne.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenSeven.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenSix.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenThree.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\OpenTwo.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>
